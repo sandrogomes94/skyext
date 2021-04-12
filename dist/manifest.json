@@ -1,0 +1,14 @@
+{
+  "name": "Skyext",
+  "description": "Save your files on the Skynet",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["https://siasky.net/*"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
+

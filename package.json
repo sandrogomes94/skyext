@@ -1,0 +1,19 @@
+{
+  "name": "Skyext",
+  "version": "1.0.0",
+  "description": "Save yours file on the Skynet",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["sia", "skynet", "cloud", "storage", "blockchain"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "skynet-js": "^4.0.0-beta"
+  }
+}
